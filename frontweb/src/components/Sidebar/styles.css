@@ -1,0 +1,19 @@
+.sidebar-container {
+    display: flex;
+}
+
+.image-expand {
+    width: 20px;
+}
+
+.css-wljo3u {
+    margin-top: 10px;
+    position: relative;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: #efefef;
+    -webkit-transition: width,left,right,1000ms;
+    transition: width,left,right,1000ms;
+    width: 200px;
+    min-width: 200px;
+}

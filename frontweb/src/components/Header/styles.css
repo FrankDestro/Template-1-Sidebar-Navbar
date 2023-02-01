@@ -1,0 +1,49 @@
+.container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 1500px;
+}
+
+
+.logomain-container img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.notification-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.label {
+    margin-left: 6px;
+    border-radius: 20%;
+}
+
+.label::after {
+    position: absolute;
+    top: -15px;
+    right: -12px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+.menu-content {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
