@@ -1,49 +1,73 @@
 .container {
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 1500px;
+  margin-right: 0px;
+  width: 1500px;
 }
 
+.container-logo {
+  align-items: center;
+  display: flex;
+}
+
+.container-logo h4 {
+  font-size: 20px;
+  margin-left: 20px;
+}
 
 .logomain-container img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
 .notification-container {
-    display: flex;
-    flex-direction: row;
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 
 .label {
-    margin-left: 6px;
-    border-radius: 20%;
+  margin-left: 6px;
+  border-radius: 20%;
 }
 
 .label::after {
-    position: absolute;
-    top: -15px;
-    right: -12px;
+  position: absolute;
+  top: -15px;
+  right: -12px;
 }
 
 .dropdown-toggle::after {
-    display: none;
+  display: none;
 }
 
 .dropdown-menu {
-    padding: 0;
+  padding: 0;
 }
 
 .menu-content {
-    display: flex;
-    align-items: center;
+  margin-right: 150px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+.dropdown-menu.show {
+  overflow-y: auto;
+  height: 200px;
+}
+
+.dropdown-menu.show::-webkit-scrollbar {
+  width: 6px !important;
+  height: 5px !important;
+}
+
+.dropdown-menu.show::-webkit-scrollbar-thumb {
+  background-color: rgb(11, 20, 26, .2) !important;
+}
+

@@ -1,5 +1,6 @@
 .sidebar-container {
     display: flex;
+    height: calc(100vh - 56px);
 }
 
 .image-expand {
@@ -16,4 +17,8 @@
     transition: width,left,right,1000ms;
     width: 200px;
     min-width: 200px;
+}
+
+.css-1cuxlhl::after {
+    display: none;
 }
