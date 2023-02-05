@@ -1,0 +1,46 @@
+.navbar-brand {
+  text-align: center;
+  font-weight: 500;
+  color: rgb(128, 134, 124) !important;
+}
+
+.menu-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.login-information {
+  margin-right: 10px;
+}
+
+.label-notification {
+  position: absolute;
+}
+
+.mensagem-ola {
+  font-weight: 500;
+  color: rgb(19, 143, 160);
+}
+
+.foto-perfil-content {
+  border-radius: 70%;
+  width: 40px!important;
+  height: 40px;
+}
+
+.menu-notification {
+  width: 300px;
+  height: 300px;
+  overflow-y: auto;
+}
+
+.menu-notification::-webkit-scrollbar {
+  width: 6px !important;
+  height: 5px !important;
+}
+
+.menu-notification::-webkit-scrollbar-thumb {
+  background-color: rgb(11, 20, 26, 0.2) !important;
+}

@@ -1,12 +1,13 @@
 /* eslint-disable react/style-prop-object */
 /* eslint-disable jsx-a11y/anchor-has-content */
+import { ReactComponent as Logo } from 'assets/img/logomain.svg';
+import { ReactComponent as Notification } from 'assets/img/notification.svg';
+import { ReactComponent as Resources } from 'assets/img/resources.svg';
+import MenuIr from 'components/NotificationBadge';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { ReactComponent as Notification } from 'assets/img/notification.svg';
-import { ReactComponent as Resources } from 'assets/img/resources.svg';
-import { ReactComponent as Logo } from 'assets/img/logomain.svg';
 
 import './styles.css';
 
@@ -17,7 +18,7 @@ function Header() {
         <div className="container-fluid">
           <div className="container-logo">
             <Logo></Logo>
-            <h4>GRB Dashboard bot</h4>
+            <h4>Projet Standard</h4>
           </div>
         </div>
         <Container>
@@ -72,10 +73,9 @@ function Header() {
                     <NavDropdown.Item href="#action/3.1">
                       Action
                     </NavDropdown.Item>
-                     <NavDropdown.Item href="#action/3.1">
+                    <NavDropdown.Item href="#action/3.1">
                       Action
                     </NavDropdown.Item>
-                    
                   </NavDropdown>
                 </div>
               </div>

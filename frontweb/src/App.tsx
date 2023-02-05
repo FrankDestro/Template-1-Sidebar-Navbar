@@ -1,12 +1,12 @@
-import './assets/styles/custom.scss';
-import './App.css';
-import Header from 'components/Header';
+import Header2 from 'components/Header2';
 import Side from 'components/Sidebar';
+import './App.css';
+import './assets/styles/custom.scss';
 
 function App() {
   return (
     <>
-    <Header></Header>
+    <Header2></Header2>
     <Side></Side>
     </>
   );
