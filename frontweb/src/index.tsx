@@ -1,3 +1,6 @@
+import './assets/styles/custom.scss';
+import './App.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { ProSidebarProvider } from 'react-pro-sidebar';

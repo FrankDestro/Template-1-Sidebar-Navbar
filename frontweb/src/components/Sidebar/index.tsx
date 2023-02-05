@@ -3,6 +3,7 @@ import { ReactComponent as Bag } from 'assets/img/bag.svg';
 import { ReactComponent as Box } from 'assets/img/box.svg';
 import { ReactComponent as Hide } from 'assets/img/expand.svg';
 import { ReactComponent as Meta } from 'assets/img/meta.svg';
+import { NavLink } from 'react-router-dom';
 import {
   Menu,
   MenuItem,
