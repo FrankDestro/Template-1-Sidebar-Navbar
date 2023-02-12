@@ -31,8 +31,8 @@ function Header2() {
       <Nav className="ml-auto">
         <div className="menu-right">
           <span className="login-information">
-            <span className="mensagem-ola">Olá, </span>{' '}
-            administrador@grbsf.com.br
+          <span className="navbar-usuario-email">Olá, </span>{' '}
+          <span className="navbar-usuario-email">administrador@grbsf.com.br</span>  
           </span>
 
           <NavItem>

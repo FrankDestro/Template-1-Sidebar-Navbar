@@ -1,13 +1,11 @@
-import Header2 from 'components/Header2';
-import Side from 'components/Sidebar';
+import Routes from 'Routes';
 import './App.css';
 import './assets/styles/custom.scss';
 
 function App() {
   return (
     <>
-    <Header2></Header2>
-    <Side></Side>
+      <Routes />
     </>
   );
 }

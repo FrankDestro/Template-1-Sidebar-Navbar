@@ -1,7 +1,7 @@
 .navbar-brand {
   text-align: center;
   font-weight: 500;
-  color: rgb(128, 134, 124) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .menu-right {
@@ -19,9 +19,9 @@
   position: absolute;
 }
 
-.mensagem-ola {
+.navbar-usuario-email {
   font-weight: 500;
-  color: rgb(19, 143, 160);
+  color: rgb(255, 255, 255);
 }
 
 .foto-perfil-content {

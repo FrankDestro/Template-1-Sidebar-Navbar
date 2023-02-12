@@ -1,6 +1,6 @@
 .sidebar-container {
   display: flex;
-  height: calc(100vh - 66px);
+  height: 100%;
 }
 
 .menu-title {
@@ -9,7 +9,6 @@
   color: rgba(128, 128, 128, 0.486);
   border-bottom: 1px solid rgba(128, 128, 128, 0.158);
 }
-
 
 .image-expand {
   width: 20px;
@@ -28,4 +27,15 @@
 
 .css-1cuxlhl::after {
   display: none;
+}
+
+
+/*  TESTE DE ARROW */
+
+#arrow {
+  transition: transform 0.2s;
+}
+
+#arrow.clicked {
+  transform: rotate(180deg);
 }

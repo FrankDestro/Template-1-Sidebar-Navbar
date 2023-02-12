@@ -1,11 +1,12 @@
-import React from 'react'
-
 function Clientes() {
   return (
-    <div>
-      <h1>Voce esta na pagina clientes</h1>
+    <div className="container-content">
+      <h1 className="title-container-content">Voce esta na pagina Clientes</h1>
+      <div>
+        Conteudo
+      </div>
     </div>
-  )
+  );
 }
 
-export default Clientes
+export default Clientes;
