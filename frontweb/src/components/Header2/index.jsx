@@ -32,7 +32,7 @@ function Header2() {
         <div className="menu-right">
           <span className="login-information">
           <span className="navbar-usuario-email">Olá, </span>{' '}
-          <span className="navbar-usuario-email">administrador@grbsf.com.br</span>  
+          <span className="navbar-usuario-email">administrador@gmail.com.br</span>  
           </span>
 
           <NavItem>

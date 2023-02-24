@@ -4,7 +4,6 @@ import { ReactComponent as Bag } from 'assets/img/bag.svg';
 import { ReactComponent as Box } from 'assets/img/box.svg';
 import { ReactComponent as Hide } from 'assets/img/expand.svg';
 import { ReactComponent as Meta } from 'assets/img/meta.svg';
-import { useState } from 'react';
 import {
   Menu,
   MenuItem,
@@ -26,36 +25,35 @@ function Side() {
         <Sidebar transitionDuration={1000}>
           <Menu>
             <Menu>
-              <div className="menu-title">Modulos</div>
-              <SubMenu label="APP" icon={<Box />} className="menu-primary">
+              <div className="menu-title">Projetos</div>
+              <SubMenu label="Projetos" icon={<Box />} className="menu-primary">
                 <MenuItem>
-                  <NavLink to="/">Dashobard </NavLink>
+                  <NavLink to="/">Visualizar projetos</NavLink>
                 </MenuItem>
                 <MenuItem>
-                  <NavLink to="/projetos">Projetos</NavLink>
+                  <NavLink to="/projetos">Criar um novo Projeto</NavLink>
                 </MenuItem>
                 <MenuItem>
-                  <NavLink to="/clientes">Clientes</NavLink>
+                  <NavLink to="/clientes">Tarefas</NavLink>
                 </MenuItem>
                 <MenuItem>
-                  <NavLink to="/tarefas">Tarefas</NavLink>
+                  <NavLink to="/tarefas">Equipe</NavLink>
+                </MenuItem>
+                <MenuItem>
+                  <NavLink to="/tarefas">Dashboard / Relatórios</NavLink>
                 </MenuItem>
               </SubMenu>
-              <SubMenu label="Charts" icon={<Box />}>
-                <MenuItem> Pie charts</MenuItem>
-                <MenuItem> Line charts</MenuItem>
-                <MenuItem> Bar charts</MenuItem>
-              </SubMenu>
-              <div className="menu-title">Cadastro</div>
-              <SubMenu label="Maps" icon={<Bag />}>
-                <MenuItem> Google maps</MenuItem>
-                <MenuItem> Open street maps</MenuItem>
+              <div className="menu-title">Service Desk</div>
+              <SubMenu label="Service Call" icon={<Bag />}>
+                <MenuItem> Novo chamado</MenuItem>
+                <MenuItem> Vizualizar Chamados</MenuItem>
+                <MenuItem> Relatório Dashboard</MenuItem>
               </SubMenu>
               <SubMenu label="Theme" icon={<Meta />}>
                 <MenuItem> Dark</MenuItem>
                 <MenuItem> Light</MenuItem>
               </SubMenu>
-              <div className="menu-title">Settings</div>
+              <div className="menu-title">IT Operations</div>
               <SubMenu label="Maps" icon={<Bag />}>
                 <MenuItem> Google maps</MenuItem>
                 <MenuItem> Open street maps</MenuItem>

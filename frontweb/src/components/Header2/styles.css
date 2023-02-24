@@ -1,7 +1,12 @@
+.navbar {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
 .navbar-brand {
   text-align: center;
   font-weight: 500;
-  color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0);
 }
 
 .menu-right {
@@ -21,7 +26,7 @@
 
 .navbar-usuario-email {
   font-weight: 500;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .foto-perfil-content {
