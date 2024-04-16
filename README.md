@@ -1,4 +1,4 @@
-# Exemplo de Navbar criado pelo CHATGPT
+# Exemplo de Navbar.
 
 ```js
 
